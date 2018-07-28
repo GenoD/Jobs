@@ -28,6 +28,10 @@ export default class App extends React.Component {
             })
         })
       }
+    }, {
+      navigationOptions: {
+        tabBarVisible: false ,
+      }
     });
     console.log('Main Navigator', MainNavigator);
     return (
